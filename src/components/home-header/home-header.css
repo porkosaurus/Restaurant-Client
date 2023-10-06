@@ -1,0 +1,108 @@
+.body-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.home-header-container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 85vw;
+    font-family: "Recoleta";
+    color: #3B3A3E;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100vh;
+}
+
+.header-logo{
+    font-size: 6rem;
+    margin: 10%;
+}
+
+.images-flex-container{
+    display: flex;
+    height: 100vh;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.images-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.image-container{
+    width: 100%;
+    height: 80%;
+}
+
+.home-header-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100vw;
+  }
+  
+  .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    z-index: -99;
+  }
+
+  .background-video{
+    height: 100%;
+    width: 100vw;
+  }
+  
+  .content-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: blanchedalmond;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.95;
+  }
+
+.image{
+    width: 90%;
+    height: 100%;
+    background-size: cover;
+}
+
+.image-container:last-child{
+    transform: translateY(5%);
+}
+
+.header-button{
+    border-bottom: 1px solid #B83B28;
+    font-family: 'mono45-headline';
+    text-transform: uppercase;
+    color: #3B3A3E;
+    outline: none;
+    font-weight: 500;
+    padding: 1.4vh 1.2vw;
+    width: fit-content;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.header-button:hover{
+    background-color: #B83B28;
+    color: blanchedalmond;
+}

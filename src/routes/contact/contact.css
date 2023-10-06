@@ -1,0 +1,109 @@
+.contact-page-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 120vh;
+}
+
+.top-contact-container{
+    background-color: #FBAD18;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.top-contact-heading{
+    margin-left: 5%;
+    font-family: "Recoleta";
+    font-size: 4.5rem;
+    color: #3B3A3E;
+    transform: translateX(-100vw);
+    animation: slide-left 1s ease-out forwards;
+}
+
+.bottom-contact-container{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.red-contact-container, .black-contact-container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF0C9;
+}
+
+.bottom-contact-heading{
+    font-family: "Recoleta";
+    font-size: 2.7rem;
+    margin: 0;
+    margin-bottom: 7.5%;
+    padding-bottom: 2.5%;
+}
+
+.bottom-contact-address{
+    margin: 0;
+    font-family: "mono45-headline";
+    font-size: 1.5rem;
+    align-self: flex-start;
+    border-bottom: 1px solid #FFF0C9;
+    padding-bottom: 2.5%;
+}
+
+.bottom-contact-number{
+    font-family: "mono45-headline";
+    font-size: 1.5rem;
+    margin: 0;
+    padding-top: 2.5%;
+}
+
+.hours-button{
+    background-color: #FFF0C9;
+    font-family: "mono45-headline;";
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    padding: 1vh 1vw;
+    font-size: 1.05rem;
+}
+
+.red-hours-button{
+    color: #F04E36;;
+}
+
+.black-hours-button{
+    color: #3B3A3E;
+}
+
+.red-contact-container{
+    background-color: #F04E36;
+}
+
+.black-contact-container{
+    background-color: #3B3A3E;
+}
+
+.bottom-contact-text{
+    transform: translateY(100vh);
+    animation: slide-up 1s ease-out forwards;
+}
+
+@keyframes slide-left {
+    to{
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes slide-up {
+    to {
+      transform: translateY(0);
+    }
+  }

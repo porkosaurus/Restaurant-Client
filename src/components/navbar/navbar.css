@@ -1,0 +1,148 @@
+.navbar-container{
+    z-index: 99;
+    position: fixed;
+    top: 5%;
+    right: 3%;
+    width: 20vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.expanded-background{
+    border-radius: 50%;
+    position: fixed;
+    z-index: 3;
+    top: 7%;
+    right: 5.5%;
+    background-color: #FFF0C9;
+    width: 2vw;
+    height: 2vw;
+    transform: scale(0);
+    transition: 5.5s all ease-in;
+}
+
+.expanded{
+    z-index: 3;
+    transform: scale(120000%);
+    transition: 5.5s all ease-in;
+
+}
+
+.locations-button{
+    z-index: 999;
+    line-height: 1.8rem;
+    font-family: 'mono45-headline';
+    text-transform: uppercase;
+    color: #FFF0C9;
+    background-color: #F04E36;
+    border: none;
+    outline: none;
+    width: 50%;
+    font-weight: 600;
+}
+
+.locations-button:hover{
+    cursor: pointer;
+    background-color: #FFF0C9;
+    color: #F04E36;
+}
+
+.hamburger-button{
+    z-index: 999;
+    width: 20%;
+    background-color: #F04E36;
+    border: none;
+    outline: none;
+}
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+.hamburger-container{
+
+    width: 100%;
+    height: 100%;
+    background-color: #F04E36;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.hamburger-button:hover, .hamburger-button:hover .hamburger-container{
+    background-color: #FFF0C9;
+    cursor: pointer;
+}
+
+
+.hamburger-button:hover .hamburger-line{
+    background-color: #F04E36;
+    cursor: pointer;
+}
+
+.hamburger-line{
+    width: 60%;
+    height: 0.3em;
+    background-color: #FFF0C9;
+}
+
+.hamburger-line:first-child{
+    margin-top: 25%;
+}
+
+.hamburger-line:last-child{
+    margin-bottom: 25%;
+}
+
+.navbar-list-container{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+    position: fixed;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    top: -100%;
+    transition: top 0.5s ease-in-out;
+}
+
+.navbar-list-container.slide-down {
+    top: 50%; 
+  }
+
+.navbar-list{
+    list-style: none;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: start;
+}
+
+.navbar-items{
+    padding-left: 5%;
+    font-family: "Recoleta";
+    color: #F04E36;
+    text-transform: lowercase;
+    font-size: 5.5rem;
+    width: 30%;
+    height: 22.5%;
+    margin: 0;
+}
+
+.navbar-items:hover{
+    padding-left: 7.5%;
+    width: 22.5%;
+    cursor: pointer;
+}

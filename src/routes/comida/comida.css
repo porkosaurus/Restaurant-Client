@@ -1,0 +1,99 @@
+.menu-food-container{
+    color: #FFF0C9;
+    background-color: #F04E36;
+    font-family: "Recoleta";
+    width: 92.5%;
+}
+
+.menu-flex-container{
+    height: 300vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #F04E36;
+}
+
+.menu-category-heading{
+    font-size: 15vh;
+    text-transform: lowercase;
+}
+
+.menu-item{
+    width: 28%;
+}
+
+.menu-item-name{
+    font-size: 3rem;
+    text-transform: lowercase;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.menu-item-price{
+    font-family: "mono45-headline";
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: lowercase;
+    font-size: 2rem;
+}
+
+.menu-item-ingredients{
+    font-family: "mono45-headline";
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.menu-items{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+
+.categories-container{
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    justify-content: center;
+    width: 90%;
+}
+
+.category{
+    padding-left: 3%;
+    padding-right: 3%;
+    border-right: 2px solid #FFF0C9;
+    cursor: pointer;
+}
+
+/* Food */
+.food-category {
+    background-color: #F04E36;
+    color: #FFF0C9;
+  }
+  
+  /* Brunch */
+  .brunch-category {
+    background-color: #FBAD18;
+    color: #3B3A3E;
+  }
+  
+  /* Happy Hour */
+  .happy-hour-category {
+    background-color: #FFE9A6;
+    color: #B83B28;
+  }
+  
+  /* Drinks */
+  .drinks-category {
+    background-color: #74C2C5;
+    color: black;
+  }
+  
+
+.menu-category-happy-hour{
+    color: #B83B28;
+
+}

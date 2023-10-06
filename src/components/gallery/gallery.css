@@ -1,0 +1,76 @@
+.gallery-container{
+    height: 90vh;
+    width: 100vw;
+    padding-top: 10%;
+}
+
+/* Set the width and height of the gallery */
+.masonryGalleryDesktop {
+    width: 100%;
+    height: calc(664vw / 14.4);
+    position: relative;
+}
+
+/* Define the style for each gallery item */
+.itemBox {
+    background-color: #FBAD18;
+    border-radius: calc(20vw / 14.4);
+    position: absolute;
+}
+
+/* Style the images within the gallery items */
+.itemBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: calc(20vw / 14.4);
+}
+
+/* Define the position and size of each gallery item */
+.box-0 {
+    width: calc(284vw / 14.4);
+    height: calc(170vw / 14.4);
+    transform: translate(calc(51vw / 14.4), 0);
+}
+
+.box-1 {
+    width: calc(284vw / 14.4);
+    height: calc(323vw / 14.4);
+    transform: translate(calc(345vw / 14.4), calc(30vw / 14.4));
+}
+
+.box-2 {
+    width: calc(200vw / 14.4);
+    height: calc(232vw / 14.4);
+    transform: translate(calc(639vw / 14.4), calc(30vw / 14.4));
+}
+
+.box-3 {
+    width: calc(498vw / 14.4);
+    height: calc(262vw / 14.4);
+    transform: translate(calc(849vw / 14.4), 0);
+}
+
+.box-4 {
+    width: calc(335vw / 14.4);
+    height: calc(172vw / 14.4);
+    transform: translate(0, calc(181vw / 14.4));
+}
+
+.box-5 {
+    width: calc(578vw / 14.4);
+    height: calc(269vw / 14.4);
+    transform: translate(calc(51vw / 14.4), calc(364vw / 14.4));
+}
+
+.box-6 {
+    width: calc(410vw / 14.4);
+    height: calc(389vw / 14.4);
+    transform: translate(calc(639vw / 14.4), calc(274vw / 14.4));
+}
+
+.box-7 {
+    width: calc(350vw / 14.4);
+    height: calc(350vw / 14.4);
+    transform: translate(calc(1059vw / 14.4), calc(274vw / 14.4));
+}

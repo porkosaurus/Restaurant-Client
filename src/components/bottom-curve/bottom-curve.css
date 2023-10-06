@@ -1,0 +1,91 @@
+.curve-bg-overlay {
+    -webkit-mask-image: url("https://www.tacostequilawhiskey.com/wp-content/themes/ttwstudio/app/images/featured-content-bg-vector.svg");
+    mask-image: url("https://www.tacostequilawhiskey.com/wp-content/themes/ttwstudio/app/images/featured-content-bg-vector.svg");
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #3B3A3E;
+}
+
+.bottom-curve-container{
+    font-family: 'Recoleta';
+
+    width: 100vw;
+    height: 120vh;
+    background-color: #FBAD18;
+
+}
+
+.bottom-curve-container-flex{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-curve-container-image{
+    width: 32.5%;
+    height: 70%;
+}
+
+.bottom-curve-image{
+    border-radius: 2rem;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.bottom-curve-container-text{
+    font-family: "Recoleta";
+    font-size: 7.5vh;
+    background-color: blue;
+    width: 50%;
+    height: 100%;
+}
+
+.bottom-curve-flex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.bottom-curve-image-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 60%;
+}
+
+.small-image-container{
+    margin-left: 10%;
+    display: flex;
+    width: 30%;
+    height: 50%;
+    background-size: cover;
+}
+
+.big-image-container{
+    width: 50%;
+    height: 75%;
+    background-size: cover;
+}
+
+.bottom-curve-text-container{
+    font-size: 1.2rem;
+    font-family: "mono45-headline";
+    margin-left: 5%;
+    width: 25%;
+    text-transform: uppercase;
+    color: #FFF0C9;
+}
+

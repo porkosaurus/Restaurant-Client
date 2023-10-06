@@ -1,0 +1,142 @@
+.menu-page-container{
+    font-family: "Recoleta";
+    height: 110vh;
+    width: 100vw;
+}
+
+.menu-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-top-container{
+    height: 50%;
+    width: 100%;
+    background-color: #3B3A3E;
+    color: #FFE9A6;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    text-transform: lowercase;
+}
+
+.menu-header{
+    margin-left: 10%;
+}
+
+.menu-bottom-container{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.food-container{
+    height: 100%;
+    width: 25%;
+}
+
+.food-container:hover .red-button {
+    transform: translateY(1vh);
+    opacity: 1;
+    height: auto;
+}
+
+.food-container:hover .yellow-button {
+    transform: translateY(1vh);
+    opacity: 1;
+    height: auto;
+}
+
+.food-container:hover .white-button {
+    transform: translateY(1vh);
+    opacity: 1;
+    height: auto;
+}
+
+.food-container:hover .blue-button {
+    transform: translateY(1vh);
+    opacity: 1;
+    height: auto;
+}
+
+.red-button, .yellow-button, .white-button, .blue-button{
+    transition: all 0.8s ease-out;
+    background-color: #3B3A3E;
+    font-family: "mono45-headline;";
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    padding: 1vh 1vw;
+    font-size: 1.05rem;
+    transform: translateY(10vh);
+    opacity: 0;
+}
+
+.menu-red-container{
+    background-color: #F04E36;
+    color: #FFF0C9;
+}
+
+.red-button{
+    color: #F04E36;
+    background-color: #FFF0C9;
+}
+
+.menu-yellow-container{
+    background-color: #FBAD18;
+    color: #3B3A3E;
+}
+
+.yellow-button{
+    color: #FBAD18;
+    background-color: #3B3A3E;
+}
+
+.menu-white-container{
+    background-color: #FFE9A6;
+    color: #B83B28;
+}
+
+.white-button{
+    color: #FFE9A6;
+    background-color: #B83B28;
+}
+
+.menu-blue-container{
+    background-color: #74C2C5;
+}
+
+.blue-button{
+    color: #74C2C5
+}
+
+.none{
+    display: none;
+}
+
+.food-container{
+    font-size: 1.45rem;
+    font-weight: 800;
+    font-family: "Recoleta";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+
+
+.heading{
+    margin: 0;
+}
+
+h4{
+    font-family: "Pacifico";
+    font-size: 1.3rem;
+    margin: 0;
+}
+
